@@ -1,0 +1,18 @@
+.jumbotron {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#sidebar {
+position: absolute;
+align-items: left;
+margin: 10px;
+background-color: yellow;
+width: 300px;
+}
+
+#container {
+    background-color: turquoise;
+
+}

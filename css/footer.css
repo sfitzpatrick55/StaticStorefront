@@ -1,5 +1,13 @@
 .footer {
-    margin: 0;
+    position: absolute;
+    margin: auto;
     background-color: pink;
-    height: 70px;
+    height: 10vh;
+    width: 100vw;
+}
+
+#footerText {
+    text-align: center;
+    background-color: aqua;
+    width: 50vw;
 }

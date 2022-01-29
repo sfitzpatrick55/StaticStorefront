@@ -1,13 +1,40 @@
 .footer {
-    position: absolute;
-    margin: auto;
-    background-color: pink;
-    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: middle;
+    justify-content: center;
+    position: relative;
+    background-color: lightgray;
+    height: 8vh;
     width: 100vw;
 }
 
 #footerText {
     text-align: center;
-    background-color: aqua;
-    width: 50vw;
+    font-size: 0.8em;
+    font-family: sans-serif;
+    line-height: 0.5em;
+    color:darkslategray;
+}
+
+#footerText a {
+    text-transform: lowercase;
+    text-decoration: none;
+    color: darkslategray;
+}
+
+#footerText a:hover {
+    color: black;
+}
+
+#footerImage {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#footerImage img {
+    max-height: 6vh;
+    padding: 0;
 }

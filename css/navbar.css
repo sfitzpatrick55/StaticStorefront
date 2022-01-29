@@ -1,14 +1,37 @@
 .nav {
+    display: flex;
     position: fixed; 
-    background-color: blue;
-    height: 10vh;
+    background-color: lightgray;
+    height: 8vh;
     width: 100vw;
     top: 0;
     left: 0;
+    z-index: 1;
 }
 
 #logoContainer {
-    padding-left: 500px;
-    width: 100vw;
-    background-color: tomato;
+    margin-left: 20vw;
+    height: 100%;
+}
+
+#logoContainer img {
+    max-height: 8vh;
+}
+
+#pageNav {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    min-width: 45vw;
+}
+
+#pageNav a {
+    font-size: 0.8em;
+    font-family: sans-serif;
+    color: darkslategray;
+    text-decoration: none;
+}
+
+#pageNav a:hover {
+    color: black;
 }

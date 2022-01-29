@@ -1,23 +1,69 @@
 .jumbotron {
-    margin: 0;
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    position: static;
-    background-color: green;
-    height: 80vh;
+    flex-flow: row wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
     width: 100vw;
+    margin-top: 8vh;
 }
 
-#sidebar {
+#sideBar {
     position: absolute;
     align-items: left;
-    margin: 10px;
-    background-color: yellow;
-    width: 300px;
+    width: 20vw;
+    overflow: hidden;
+    border-right: 1px solid lightgray;
+}
+
+#headingFrame, #headingColor {
+    text-align: left;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    color: slategray;
+    padding-left: 6vw;
+    padding-top: 5vh;
+}
+
+code a {
+    text-decoration: none;
+    font-size: 1em;
+    color: darkslategray;
+    padding-left: 7vw;
+}
+
+code a:hover {
+    color: black;
 }
 
 #container {
-    background-color: turquoise;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+    width: 60vw;
+    padding-top: 5vh;
+    margin-left: 20vw;
+}
 
+#div1, #div2, #div3, #div4, #div5, #div6, #div7, #div8, #div9 {
+    padding: 0 1.5rem 1.5rem 1.5rem;
+}
+
+#container a {
+    font-size: 0.8em;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: darkslategray;
+    text-align: center;
+}
+
+#container img:hover {
+    transform: scale(1.04);
+}
+
+#container a:hover {
+    color: black;
+    font-weight: bold;
 }
